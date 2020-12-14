@@ -1,0 +1,189 @@
+.custom-table{border-collapse:collapse;width:100%;border:solid 1px #c0c0c0;font-family:open sans;font-size:11px}
+.custom-table th,.custom-table td{text-align:left;padding:8px;border:solid 1px #c0c0c0}
+.custom-table th{color:#000080}
+.custom-table tr:nth-child(odd){background-color:#f7f7ff}
+.custom-table>thead>tr{background-color:#dde8f7!important}
+.tbtn, .delete, .save, .edit{border:0;outline:0;background-color:transparent;font-size:13px;cursor:pointer}
+.toggler{display:none}
+.toggler1{display:table-row;}
+.custom-table a{color: #0033cc;}
+.custom-table a:hover{color: #f00;}
+.page-header{background-color: #eee;}
+.data input{
+    width: 100px;
+}
+button:focus{
+    border: none;
+}
+a:hover{
+    text-decoration: none!important;
+    color: inherit;
+}
+.in-table-buttons{
+    display: flex;
+}
+.in-table-buttons {
+    padding: 0;
+}
+.in-table-buttons li{
+   list-style: none;
+}
+.in-table-buttons li .btn{
+    padding: 5px;
+    border-radius: 3px;
+    background: #f7f7ff;
+    box-shadow: none;
+    margin: 5px;
+    border: 1px solid #000000;
+}
+/*Not Required*/
+/*Not Required*/
+.btn{margin-bottom:15px;}
+.notices{
+    height: 100px;
+    border: 1px solid #B8B8B8;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.table-class{
+    text-align: center;
+    border: 1px solid #B8B8B8;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.owl-height{
+    height: 30px!important;
+}
+.owl-stage{
+    height: 30px;
+}
+.tabs {
+
+    margin: 0 auto;
+    padding: 0 20px;
+}
+#tab-button {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#tab-button li {
+    display: table-cell;
+    width: 20%;
+}
+#tab-button li a {
+    display: block;
+    padding: .5em;
+    background-image: linear-gradient(to bottom, #00a4d3, #7cb7e3, #b5ccee, #e0e4f6, #ffffff);
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+#tab-button li:not(:first-child) a {
+    border-left: none;
+}
+#tab-button li a:hover,
+#tab-button .is-active a {
+    border-bottom-color: transparent;
+    background: #fff;
+}
+.tab-contents {
+    padding: .5em 2em 1em;
+    border: 1px solid #ddd;
+}
+
+.owl-nav button.owl-prev {
+    left: -25px;
+}
+.owl-nav button.owl-next {
+    right: -25px;
+}
+.owl-carousel .owl-nav button.owl-next{
+    margin: 0;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    margin: 0;
+}
+.owl-nav button {
+    border: none!important;
+    position: absolute;
+    top: 0px;
+    font-weight: bold;
+    font-size: 20px!important;
+}
+.owl-theme .owl-nav {
+    margin-top: 0px;
+    color: #00A4D3;
+}
+.tab-button-outer {
+    display: none;
+}
+.tab-contents {
+    margin-top: 20px;
+    padding-bottom: 0;
+    background: #ffffff;
+
+}
+.owl-item{
+    margin-right: 5px;
+    background: #00A4D3;
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 4px;
+}
+.owl-item {
+    color: #ffffff!important;
+    height: 30px;
+}.owl-item :hover{
+     color: #ffffff!important;
+ }
+.infographics, .notices, .table-class{
+    background: #f6f9fa;
+    -webkit-box-shadow: 5px 7px 17px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 7px 17px -9px rgba(0,0,0,0.75);
+    box-shadow: 5px 7px 17px -9px rgba(0,0,0,0.75);
+    border-radius: 3px;
+
+}{
+
+}
+.infographics{
+    padding-top: 20px;
+    border: 1px solid #B8B8B8;
+}
+.infographics .info-block{
+    border: 1px solid black;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.no-padding{
+    padding: 0!important;
+}
+@media screen and (min-width: 768px) {
+    .tab-button-outer {
+        position: relative;
+        z-index: 2;
+        display: block;
+    }
+    .tab-select-outer {
+        display: none;
+    }
+    .tab-contents {
+        position: relative;
+        top: -1px;
+        margin-top: 0;
+    }
+}
+/*Required*/
+@media (max-width: 576px){.modal-dialog.modal-dialog-slideout {width: 80%}}
+.modal-dialog-slideout {min-height: 100%; margin: 0 auto 0 0 ;background: #fff;}
+.modal.fade .modal-dialog.modal-dialog-slideout {-webkit-transform: translate(-100%,0);transform: translate(-100%,0);}
+.modal.fade.show .modal-dialog.modal-dialog-slideout {-webkit-transform: translate(0,0);transform: translate(0,0);flex-flow: column;}
+
+.modal-dialog-slideout .modal-content{border: 0;}

@@ -1,0 +1,65 @@
+{
+  "_defaultColors": false,
+  "chart": {
+    "type": "column",
+    "borderWidth": 1
+  },
+  "xAxis": {
+    "title": {
+      "text": "Годы"
+    },
+    "categories": [
+      "2018-2019",
+      "2019-2020",
+      "2020-2021"
+    ]
+  },
+  "yAxis": {
+    "title": {
+      "text": "Общее число"
+    }
+  },
+  "title": {
+    "text": " Количество учащихся в год"
+  },
+  "tooltip": {
+    "useHTML": true
+  },
+  "legend": {
+    "useHTML": true
+  },
+  "series": [
+    {
+      "name": "Мужской",
+      "data": [
+        1,
+        200,
+        0
+      ]
+    },
+    {
+      "name": "Женский",
+      "data": [
+        0,
+        188,
+        0
+      ]
+    },
+    {
+      "name": "Общее число",
+      "data": [
+        1,
+        388,
+        0
+      ]
+    }
+  ],
+  "credits": {
+    "enabled": false
+  },
+  "colors": [
+    "#7D68D5",
+    "#F1658D",
+    "#FFD16A"
+  ]
+}

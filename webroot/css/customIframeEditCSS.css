@@ -1,0 +1,60 @@
+html header,
+html .left-pane,
+html .breadcrumb,
+html .nav-tabs,
+html #main-header,
+html .toolbar .btn,
+html .toolbar-search,
+html .panel-body.panel-index .table-wrapper,
+html .panel-body.panel-index .pagination-wrapper,
+html .panel-body.panel-index #content-main-form,
+html .alert.alert-success,
+html footer {
+    display: none !important;
+}
+html .toolbar a[href*='/view'],
+html .toolbar a[href*='/edit'],
+html .toolbar a[href*='/delete'],
+html .toolbar a[href*='/remove'],
+html .toolbar a[data-target='#delete-modal'],
+html .toolbar a[href*='/download'] {
+    display: inline-block !important;
+}
+html .toolbar {
+    border: none;
+}
+html .right-pane {
+    width: 100% !important;
+    left: 0 !important;
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+html .right-pane .content-wrapper {
+    padding: 0;
+}
+html .pane-wrapper {
+    bottom: 0 !important;
+}
+html .right-pane #content-main-form {
+    margin: 0 !important;
+    box-shadow: none !important;
+}
+html .wrapper-child {
+    padding: 0;
+}
+html .clearfix .input-form-wrapper {
+    width: 100% !important;
+}
+html .content-wrapper .panel-body {
+    height: 100vh !important;
+    padding-top: 42px;
+}
+html .panel-body.panel-view {
+    padding: 10px 15px;
+}
+html .iframe-close.hide {
+    display: block !important;
+    top: 10px;
+    right: 20px;
+    position: fixed;
+}

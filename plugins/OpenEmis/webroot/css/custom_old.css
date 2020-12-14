@@ -1,0 +1,449 @@
+body.login {
+    background-image: url(/img/default_images/core-login-bg.png)!important;
+}
+html, body {
+    overflow: auto !important;
+}
+.logo-os {
+    width: 240px;
+}
+.customNav {
+    height: unset;
+    display: block;
+}
+.navbar-brand-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom_os_logo{
+    width: 60px;
+}
+
+.navbar-brand-text {
+    font-weight: 600;
+    padding: 10px;
+    margin: auto;
+    width: 230px;
+    font-size: 14px;
+}
+.navbar-default .navbar-nav>li>a.nav-link {
+    font-weight:600;
+    color:#1A4E87;
+    font-size:18px;
+}
+.navbar_sub {
+    font-weight:500;
+    font-size:12px;
+    color:#FF7A00;
+    display: grid;
+}
+
+.nav-lang {
+    color:#F0F0F0 !important;
+    font-size:14px;
+}
+.nav-lang .active {
+    font-weight:600;
+    color:#293845 !important;
+    text-decoration: underline;
+}
+@media (max-width: 768px){
+    .navbar-default {
+        padding: 10px;
+        background-image: -webkit-linear-gradient(top,#fff 0,#f8f8f8 100%);
+        background-image: -o-linear-gradient(top,#fff 0,#f8f8f8 100%);
+        background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f8f8f8));
+        background-image: linear-gradient(to bottom,#fff 0,#f8f8f8 100%);
+        background-repeat: repeat-x;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
+    }
+    .navbar-brand-text {
+        font-weight: 600;
+        padding: 0px;
+        margin: auto;
+        width: 230px;
+        font-size: 11px;
+    }
+    .custom_os_logo {
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .login-box select {
+        border: 1px solid #A6ACBE !important;
+    }
+}
+@media (min-width: 768px){
+    .customNav .navbar-collapse.collapse {
+        display: flex !important;
+    }
+    .navbar-links {
+        flex-grow:1;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-default {
+        box-shadow:unset !important;
+        padding-left:30px;
+        padding-right:30px;
+        padding-top:50px;
+        border-color: transparent !important;
+        background: transparent !important;
+        border:none
+    }
+}
+.body-wrapper {
+    width: unset;
+    height: unset;
+    position: relative;
+    background-image: none !important;
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-size: cover;
+    margin: 0;
+    overflow-y: unset;
+    top: 0;
+}
+
+.login-box .form-horizontal{
+    padding: 10px 0
+}
+.login-box {
+    border-radius: 15px;
+    margin: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    color: black;
+    text-align: center;
+    width: 358px;
+    z-index: 1000;
+    position: relative;
+    left: 0;
+    top: 0;
+    -webkit-transform: translate(-50%, -45%);
+    -moz-transform: translate(-50%, -45%);
+    -ms-transform: translate(-50%, -45%);
+    -o-transform: translate(-50%, -45%);
+    transform: unset;
+}
+.login-box{
+    background: #fff !important;
+}
+body .body-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-image: none !important;
+}
+.login-box .btn-login, .navbar {
+    background-color: white;
+}
+.login-box .title {
+    padding-top: 25px;
+    background-color: #fff !important;
+    background-image:none  !important;
+}
+.form-horizontal input, .form-horizontal textarea, .form-horizontal .chosen-choices {
+    border-radius: 20px !important;
+    border-color: #A6ACBE !important;
+}
+.login .form-horizontal input, .login .form-horizontal .input-select-wrapper {
+    border-color: #A6ACBE !important;
+}
+.login select,.login-box .select {
+    border-radius: 20px !important;
+    border-color: #A6ACBE !important;
+}
+.login-box .links-wrapper {
+    padding-top: 11px;
+    display: flex;
+}
+.login-box .title-wrapper h1 {
+    color: darkslateblue;
+}
+.login-box .btn-login.btn-primary {
+    border: none !important;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    background: #1A4E87;
+    FLOAT: RIGHT;
+    WIDTH: unset;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.login-box .links-wrapper > a {
+    font-size: 14px;
+    color: #494B57;
+    font-weight: 600;
+}
+.body-wrapper {
+    display: flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.login-box.reset-box {
+    width: 550px;
+    padding-bottom: 60px;
+}
+
+.form-group.bottom-buttons {
+    position: absolute;
+    bottom: 12px;
+    right: 40px;
+}
+
+.long-button {
+    width: 100%;
+    border-radius: 45px;
+    box-shadow: 0px 2px 6px 1px #ccc;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    margin-bottom:10px;
+}
+.login-box .btn-login {
+    margin:5px;
+    background-image:none !important;
+    border: none !important;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    FLOAT: RIGHT;
+    WIDTH: unset;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.login-box .btn-primary:hover{
+    background-color: #10335a;
+}
+.login-box .btn-success{
+    background-color: #009966;
+}
+.login-box .btn-success:hover{
+    background-color: #1a7d5c;
+}
+
+.login-box .btn-secondary{
+    color: #FFF;
+    background-color: #A6ACBE;
+}
+.login-box .btn-secondary:hover{
+    background-color: #868a98;
+}
+.bottom-description {
+    margin-top: 120px;
+}
+.login-box .form-description .fa {
+    font-size: 30px !important;
+    margin:5px;
+}
+.fa.fa-telegram {
+    color: #039BE5;
+}
+.fa.fa-volume-control-phone {
+    color: green;
+    margin-left: 11px;
+    margin-bottom: 10px;
+    transform: rotate(-38deg);
+}
+.fa.fa-envelope-o {
+     color: #F44336;
+ }
+
+.descriptionWithIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Login CSS ends*/
+
+
+
+
+/* Admin panel Css starts*/
+
+.navbar.navbar-fixed-top {
+    margin-left: 90px;
+    height: 70px;
+    background-image: none;
+    background-color: #fff;
+    margin-right: 30px;
+    border-bottom: solid 1px
+}
+.header-navigation .btn-group .btn i {
+    color: #101010;
+}
+.header-navigation .btn-group .btn:hover, .input-slider .slider-handle{
+    background: #1A4E87 !important;
+}
+.header-navigation .btn-group .btn:hover i {
+    color: #fff;
+}
+.navbar-left h1 {
+    font-size: 33px !important;
+}
+.pane-wrapper {
+    top: 0px;
+    z-index: -9;
+}
+.split-panes.horizontal > .split-pane2 {
+    top: 85px;
+    left: 80px !important;
+}
+.left-pane {
+    position: fixed;
+    width: 80px !important;
+    background:#1A4E87 !important;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    z-index: 99999999;
+}
+.left-menu {
+    background: transparent;
+}
+.left-pane:hover{
+    width: 320px !important;
+}
+.left-menu .nav-level-1 i {
+    margin: 18px;
+    font-size: 21px!important;
+}
+
+.left-menu li a {
+    display: flex;
+    align-items: center;
+    height: 60px !important;
+}
+.nav > li > a {
+    color: #FFF;
+}
+.nav > li > a b {
+    margin-left: 19px;
+    font-size: 14px;
+}
+.nav .panel-heading.accordion-toggle:after{
+    color:#FFF !important;
+}
+.content-wrapper {
+    background-color: #fff!important;
+}
+.split-handler {
+    pointer-events: none;
+}
+.split-handler {
+    display: none !important;
+}
+.sidebar-head{
+    background: #293845;
+    text-align: center;
+}
+.sidebar-logo {
+    width: 50px;
+    margin: 10px;
+}
+
+.navbar-left h1 {
+    color: #0b0b0b;
+}
+.btn-default,
+.pagination > .active > a:focus,
+.pagination > li > a:hover,
+.pagination > .active > a,
+.pagination > .active > a:hover, .pagination > li > a:focus,
+.scroll_tabs_container .scroll_tab_left_button, .scroll_tabs_container .scroll_tab_right_button,
+.scrolltabs .ui-tabs-scrollable > .nav-button.left-nav-button,
+.scrolltabs .ui-tabs-scrollable > .nav-button.right-nav-button,
+.scrolltabs .ui-tabs-scrollable > .btn-group > .btn.dropdown-toggle {
+    background: #1A4E87 !important
+}
+.btn-default:hover,
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.more-menu-item a:hover,
+#action-menu:hover,
+.horizontal-tabs span a:hover,
+.scrolltabs .nav > li > a:hover,
+.horizontal-tabs .nav > li > a:hover,
+.btn-default:active,
+.btn-active,
+.action-dropdown > li > a:hover,
+.login-box .btn-login:hover,
+#menu-toggle .fa:hover,
+.btn-bold:hover,
+.btn-italic:hover,
+.input-group-addon:hover,
+.datepicker table tr td.active,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover,
+.mce-menu-item:hover,
+.mce-menu-item.mce-selected,
+.mce-menu-item:focus,
+.selected-size,
+.btn-single-action:hover,
+.ui-menu-item:hover,
+.ui-state-focus:hover,
+.ui-state-focus:focus,
+.ui-state-focus:visited,
+.ui-state-focus:active,
+.chosen-container .chosen-results li.highlighted,
+.chosen-container .chosen-results li.active-result:hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.pagination > li > a:hover,
+.btn-dropdown:hover,
+.input-left-btn button:hover,
+.input-left-btn button:focus,
+.scrolltabs .dropdown-menu > li > a:focus,
+.scrolltabs .dropdown-menu > li > a:hover,
+.customize-tab .tab-icon .nav-pills > li.active > a:hover,
+.btn-toggled,
+.sg-theme .ag-menu-option-active,
+.sg-theme .ag-paging-button:hover,
+.image-holder .prev-arrow:hover,
+.image-holder .next-arrow:hover {
+    background: #133b52 !important
+}
+.page-header {
+    z-index: 0 !important;
+}
+.panel-breadcrumb li a,.panel-breadcrumb i {
+    color:#293845;
+}
+
+@media (max-width: 1400px){
+    .content-wrapper .page-header {
+        margin-bottom: 0px;
+    }
+}
+.panel-breadcrumb {
+    background-color: #FFF!important;
+    border-bottom: 1px solid #FFF;
+}
+.toolbar-search .search .input-group-btn {
+    top: -2px;
+}
+
+.text-blue {
+    color: #2D7ED6;
+}
+.head-table .input-group {
+    display: flex !important;
+    flex-wrap: wrap;
+}
+.header-form {
+    margin-right: 5px;
+}
+
+.btn_close {
+    right: 5px;
+    top: 5px;
+}
