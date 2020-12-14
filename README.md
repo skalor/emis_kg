@@ -1,3 +1,5 @@
+![plot](./screens/1.jpg)
+
 # OpenEMIS Core (POCOR)
 OpenEMIS Core is a sector wide Open Source Education Management Information System (EMIS) that facilitates the collection, processing and management of education information. OpenEMIS Core is a customizable web application that supports the day-to-day activities involved in managing a sector wide education system.
 
